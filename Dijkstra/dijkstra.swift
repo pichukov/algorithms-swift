@@ -6,9 +6,9 @@ class Dijkstra {
     private var _mark: [Bool] = []
     private var _source: Int
     
-    init(nodeCount: Int, graph: [[Double]], sourceNodeIndex: Int) {
+    init(nodeCount: Int, adjacencyMatrix: [[Double]], sourceNodeIndex: Int) {
         _numOfVertices = nodeCount
-        _adjMatrix = graph
+        _adjMatrix = adjacencyMatrix
         _source = sourceNodeIndex
         calculateRoute()
     }
