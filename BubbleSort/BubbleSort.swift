@@ -1,7 +1,7 @@
 /**
  # Bubble Sort
  
- Time complexity: O(n2)
+ Time complexity: O(n^2)
  
  - Parameters:
  - array: Array of elements that confirm to Comparable protocol

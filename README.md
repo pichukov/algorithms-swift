@@ -40,3 +40,13 @@ The file `BubbleSort.swift` contains the `bubbleSort` function that you can simp
 let array = [4, 6, 8, 1, 3, 2]
 let resultArray = bubbleSort(array)
 ```
+
+###Merge sort
+Merge sort is an efficient, general-purpose, comparison-based sorting algorithm. It has `O(n*log(n))` time complexity. More information you can find in [Wikipedia](https://en.wikipedia.org/wiki/Merge_sort).
+
+The file `MergeSort.swift` contains the `mergeSort` function that you can simply use like this:
+
+```swift
+let array = [4, 6, 8, 1, 3, 2]
+let resultArray = mergeSort(array)
+```
