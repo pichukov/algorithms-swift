@@ -50,3 +50,13 @@ The file `MergeSort.swift` contains the `mergeSort` function that you can simply
 let array = [4, 6, 8, 1, 3, 2]
 let resultArray = mergeSort(array)
 ```
+
+###Quick sort
+Quick sort is an efficient sorting algorithm, serving as a systematic method for placing the elements of an array in order. It has `O(n*log(n))` time complexity but in worst case it has `O(n^2)`. More information you can find in [Wikipedia](https://en.wikipedia.org/wiki/Quicksort).
+
+The file `QuickSort.swift` contains the `quickSort` function that you can simply use like this:
+
+```swift
+let array = [4, 6, 8, 1, 3, 2]
+let resultArray = quickSort(array)
+```
