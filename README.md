@@ -60,3 +60,23 @@ The file `QuickSort.swift` contains the `quickSort` function that you can simply
 let array = [4, 6, 8, 1, 3, 2]
 let resultArray = quickSort(array)
 ```
+
+###Line segment operations
+The file `LineSegment.swift` contains `lineSegmentLength` function that calculete length of line segment from one point to anothe and `distanceToLineSegment` function that calculate distance from point to the nearest point of the segment specified by two points.
+
+You can use `lineSegmentLength` function like this:
+
+```swift
+let firstPoint = CGPoint(x: 0, y: 0)
+let secondPoint = CGPoint(x: 9, y: 0)
+let length = lineSegmentLength(fromFirstPoint: firstPoint, toSecondPoint: secondPoint)
+```
+
+And you can ulse `distanceToLineSegment` function like this:
+
+```swift
+let point = CGPoint(x: 3, y: 5)
+let firstLinePoint = CGPoint(x: 0, y: 0)
+let secondLinePoint = CGPoint(x: 9, y: 0)
+let distance = distanceToLineSegment(fromPoint: point, firstLinePoint: firstLinePoint, secondLinePoint: secondLinePoint)
+```
