@@ -80,3 +80,15 @@ let firstLinePoint = CGPoint(x: 0, y: 0)
 let secondLinePoint = CGPoint(x: 9, y: 0)
 let distance = distanceToLineSegment(fromPoint: point, firstLinePoint: firstLinePoint, secondLinePoint: secondLinePoint)
 ```
+
+###Binary Search
+Binary search is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array; if they are unequal, the half in which the target cannot lie is eliminated and the search continues on the remaining half until it is successful or the remaining half is empty. It has `O(log(n))` time complexity. More information you can find in [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_algorithm).
+
+The file `BinarySearch.swift` contains the `binarySearch` function that you can simply use like this:
+
+```swift
+let array = [4, 6, 8, 12, 35, 278]
+let resultIndex = binarySearch(array, 35)
+```
+
+>The input array must be sorted
